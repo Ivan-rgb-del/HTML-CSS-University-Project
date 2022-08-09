@@ -1,0 +1,27 @@
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about-us h3{
+    font-weight: 100;
+    font-size: 25px;
+    color: #333;
+}
+
+.about-us p{
+    font-size: 17px;
+    color: #888;
+    padding: 30px 0;
+    width: 900px;
+    margin: auto;
+}
+
+.about-us i{
+    color: #f44336;
+    padding: 0 13px;
+    font-size: 17px;
+}

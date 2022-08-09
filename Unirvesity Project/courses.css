@@ -1,0 +1,32 @@
+.courses{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.courses-box{
+    flex-basis: 31%;
+    background: oldlace;
+    margin: 0 20px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.courses-box:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+.courses-box h3{
+    color: #333;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.courses-box p{
+    color: #999;
+    line-height: 1.5;
+}

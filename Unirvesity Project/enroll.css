@@ -1,0 +1,21 @@
+.enroll{
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    background: url('images/QCF-Shareholders-and-Directors.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+.enroll h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    width: 800px;
+    margin: auto;
+}
+
+.enroll .btn{
+    margin-top: 40px;
+}

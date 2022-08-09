@@ -1,0 +1,65 @@
+.header{
+    width: 100%;
+    height: 50vh;
+    box-sizing: border-box;
+    background: url('images/fall-2019-commencement-arielle-borden-dancy-12000px.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+.header::after{
+    height: 50vh;
+}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-box1{
+    flex-basis: 50%;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.about-box2{
+    flex-basis: 50%;
+}
+
+.about-box2 img{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.about-box1 h1{
+    font-size: 60px;
+    color: #333;
+    font-weight: 100;
+    text-align: left;
+}
+
+.about-box1 p{
+    color: #888;
+    line-height: 1.6;
+}
+
+.btn-about-page{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 15px 40px;
+    color: #f44336;
+    border: 1px solid #f44336;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 1s ease-in-out;
+}
+
+.btn-about-page:hover{
+    background: #f44336;
+    color: white;
+}
